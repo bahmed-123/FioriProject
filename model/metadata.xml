@@ -1,0 +1,27 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
+    <edmx:DataServices
+        xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZCRUD_DEMO_SRV" xml:lang="en">
+            <EntityType
+                xmlns:sap="http://www.sap.com/Protocols/SAPData" Name="userdata" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ID"/>
+                </Key>
+                <Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="10"/>
+                <Property Name="Name" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="c"/>
+                <Property Name="Email" Type="Edm.String" Nullable="false" MaxLength="30"/>
+                <Property Name="Mobile" Type="Edm.String" Nullable="false" MaxLength="10"/>
+            </EntityType>
+            <EntityContainer Name="ZCRUD_DEMO_SRV" m:IsDefaultEntityContainer="true">
+                <EntitySet
+                    xmlns:sap="http://www.sap.com/Protocols/SAPData" Name="userdataSet" EntityType="ZCRUD_DEMO_SRV.userdata" sap:content-version="1"/>
+                </EntityContainer>
+                <atom:link
+                    xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/ZCRUD_DEMO_SRV/$metadata"/>
+                    <atom:link
+                        xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="./sap/ZCRUD_DEMO_SRV/$metadata"/>
+                    </Schema>
+                </edmx:DataServices>
+            </edmx:Edmx>
