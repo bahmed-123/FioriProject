@@ -1,23 +1,6 @@
 {
   "run": [
     {
-      "filePath": "/index.html",
-      "previewMode": 1,
-      "dataMode": 1,
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "workspace": "withoutWorkspace",
-      "urlParameters": [],
-      "backendSystem": [],
-      "_metadata": {
-        "runnerId": "qunitrunner",
-        "id": 1366999,
-        "displayName": "Run index.html 1",
-        "lastRunTimeStamp": 1567776741769
-      }
-    },
-    {
       "filePath": "/Component.js",
       "previewMode": 1,
       "dataMode": 1,
@@ -32,7 +15,24 @@
         "runnerId": "fiorirunner",
         "id": 8205929,
         "displayName": "Run Component.js",
-        "lastRunTimeStamp": 1567776569928
+        "lastRunTimeStamp": 1567777481561
+      }
+    },
+    {
+      "filePath": "/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [],
+      "backendSystem": [],
+      "_metadata": {
+        "runnerId": "qunitrunner",
+        "id": 1366999,
+        "displayName": "Run index.html 1",
+        "lastRunTimeStamp": 1567776741769
       }
     },
     {
